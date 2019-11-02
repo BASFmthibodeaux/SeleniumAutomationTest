@@ -152,44 +152,13 @@ public class CreateStudiesPage extends TestBase {
 	public void fillOuInternaltForm() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
 		TestUtil.type(basfStudyId, "BASF Study ID", "TestJRZ_01" + suffix_add);
-		TestUtil.type(studyDirector, "Study Director", "Frank Sattler");
-		TestUtil.ClickOnFocusedItem("Frank Sattler");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01");
-		TestUtil.type(studyType, "Study Type", "Ecotox_Terrestric");
-		TestUtil.ClickOnFocusedItem("Ecotox_Terrestric");
-		TestUtil.click(glpYes, "GLP Yes");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.type(testFascility, "Test Fascility", "BASF SE");
-		testFascility.clear();
-		TestUtil.type(externalStudyId, "External Study ID", "01JRZTest");
-		TestUtil.type(performingUnit, "Perofrmin Unit", "RIFcon GmbH");
-		TestUtil.ClickOnFocusedItem("RIFcon GmbH");
-		TestUtil.type(studyStatus, "Study Status", "6: Study Completed");
-		TestUtil.ClickOnFocusedItem("6: Study Completed");
-		TestUtil.type(workPacage, "Work Package", "1");
-		TestUtil.ClickOnFocusedItem("1");
-		TestUtil.type(basCore, "BAS Core", "BAS 004H");
-		TestUtil.ClickOnFocusedItem("BAS 004H");
-		TestUtil.type(locationOfAdditionalData, "Location Of Additional Data", "PISAR");
-		TestUtil.ClickOnFocusedItem("PISAR");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
 		
-		TestUtil.type(plannedStudyInitiationDate, "Planned Study Initiation Date", "1/1/2019");
-		TestUtil.type(plannedStudyCompletionDate, "Planned Study Completion Date", "1/31/2019");
-		TestUtil.type(plannedReportToQa, "Planned Report To QAU", "1/28/2019");
-		TestUtil.type(plannedExperimentalStartDate, "Planned Experimental Start Date", "1/2/2019");
-		TestUtil.type(plannedExperimentalEndDate, "Planned Experimental End Date", "1/25/2019");
-		TestUtil.type(actualStudyInitiationDate, "Actual Study Initiation Date", "1/1/2019");
-		TestUtil.type(actualStudyCompletionDate, "Actual Study Completion Date", "1/31/2019");
-		TestUtil.type(actualReportToQa, "Actual Report To QAU", "1/29/2019");
-		TestUtil.type(actualExperimentalStartDate, "Actual Experimental Start Date", "1/2/2019");
-		TestUtil.type(actualExperimentalEndDate, "Actual Experimental End Date", "1/25/2019");
+		IS it really important to publish such code on the internet? 
+			Codd on the internet showing internal information can be used as reconnesance for cyber cyber attackers
+			Some of us would protect the internal data so that it makes it hard to learn things.
+			It was good to see the target of where I could derive an attack. but now in this  fork that info is changed...
 		
-		TestUtil.type(qauRemarks, "QAU Remarks", "Test QAU Remarks");
-		TestUtil.type(source, "Source", "Test Source");
-		TestUtil.type(buid, "BUID", "Test BUID"+suffix_add);
+
 		
 		TestUtil.click(saveButton, "Save button");
 		
@@ -198,41 +167,13 @@ public class CreateStudiesPage extends TestBase {
 	
 	public void fillOuInternaltFormAndCancel() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
-		TestUtil.type(basfStudyId, "BASF Study ID", "TestJRZ_01" + suffix_add);
-		TestUtil.type(studyDirector, "Study Director", "Frank Sattler");
-		TestUtil.ClickOnFocusedItem("Frank Sattler");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01");
-		TestUtil.type(studyType, "Study Type", "Ecotox_Terrestric");
-		TestUtil.ClickOnFocusedItem("Ecotox_Terrestric");
-		TestUtil.click(glpYes, "GLP Yes");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.type(testFascility, "Test Fascility", "BASF SE");
-		testFascility.clear();
-		TestUtil.type(externalStudyId, "External Study ID", "01JRZTest");
-		TestUtil.type(performingUnit, "Perofrmin Unit", "RIFcon GmbH");
-		TestUtil.ClickOnFocusedItem("RIFcon GmbH");
-		TestUtil.type(studyStatus, "Study Status", "6: Study Completed");
-		TestUtil.ClickOnFocusedItem("6: Study Completed");
-		TestUtil.type(workPacage, "Work Package", "1");
-		TestUtil.ClickOnFocusedItem("1");
-		TestUtil.type(basCore, "BAS Core", "BAS 004H");
-		TestUtil.ClickOnFocusedItem("BAS 004H");
-		TestUtil.type(locationOfAdditionalData, "Location Of Additional Data", "PISAR");
-		TestUtil.ClickOnFocusedItem("PISAR");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
 		
-		TestUtil.type(plannedStudyInitiationDate, "Planned Study Initiation Date", "1/1/2019");
-		TestUtil.type(plannedStudyCompletionDate, "Planned Study Completion Date", "1/31/2019");
-		TestUtil.type(plannedReportToQa, "Planned Report To QAU", "1/28/2019");
-		TestUtil.type(plannedExperimentalStartDate, "Planned Experimental Start Date", "1/2/2019");
-		TestUtil.type(plannedExperimentalEndDate, "Planned Experimental End Date", "1/25/2019");
-		TestUtil.type(actualStudyInitiationDate, "Actual Study Initiation Date", "1/1/2019");
-		TestUtil.type(actualStudyCompletionDate, "Actual Study Completion Date", "1/31/2019");
-		TestUtil.type(actualReportToQa, "Actual Report To QAU", "1/29/2019");
-		TestUtil.type(actualExperimentalStartDate, "Actual Experimental Start Date", "1/2/2019");
-		TestUtil.type(actualExperimentalEndDate, "Actual Experimental End Date", "1/25/2019");
+		IS it really important to publish such code on the internet? 
+			Codd on the internet showing internal information can be used as reconnesance for cyber cyber attackers
+			Some of us would protect the internal data so that it makes it hard to learn things.
+			It was good to see the target of where I could derive an attack. but now in this  fork that info is changed...
+		Besides this a person in the code that is publically available is probably not a good idea in some cases.
+		
 		
 		TestUtil.type(qauRemarks, "QAU Remarks", "Test QAU Remarks");
 		TestUtil.type(source, "Source", "Test Source");
@@ -245,50 +186,13 @@ public class CreateStudiesPage extends TestBase {
 	
 	public void fillOutExternalGlpStudy() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
-		TestUtil.type(basfStudyId, "BASD Study ID", "TestJRZ_01ex" + suffix_add);
-		TestUtil.type(externalStudyId, "External Study ID", "01exJRZTest");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01ex");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.click(glpYes, "GLP Yes");
-		TestUtil.type(testFascility, "Test Fascility", "Rifcon");
-		TestUtil.ClickOnFocusedItem("ERifcon");
-		TestUtil.type(actualStudyCompletionDateExternalStudy, "Actual Study Completion Data Study", "01/02/2019");
-		TestUtil.type(studyDirector, "Study Director", "Tina Staedtler");
-		TestUtil.ClickOnFocusedItem("Tina Staedtler");
-		TestUtil.click(rawDataYes, "Raw Data Yes");
-		TestUtil.type(otherLocations, "Other Locations", "Test other location");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(source, "Source", "Test Source");
-		TestUtil.type(buid, "BUID", "BUID" + suffix_add);
-		TestUtil.type(documentLegacyId, "Document Legacy ID", "Test Document Legacy ID");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
-		TestUtil.click(saveButton, "Save Button");
 		
+		deleted out of this fork....
 		}
 	
 	public void fillOutExternalGlpStudyAndCancel() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
-		TestUtil.type(basfStudyId, "BASD Study ID", "TestJRZ_01ex" + suffix_add);
-		TestUtil.type(externalStudyId, "External Study ID", "01exJRZTest");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01ex");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.click(glpYes, "GLP Yes");
-		TestUtil.type(testFascility, "Test Fascility", "Rifcon");
-		TestUtil.ClickOnFocusedItem("ERifcon");
-		TestUtil.type(actualStudyCompletionDateExternalStudy, "Actual Study Completion Data Study", "01/02/2019");
-		TestUtil.type(studyDirector, "Study Director", "Tina Staedtler");
-		TestUtil.ClickOnFocusedItem("Tina Staedtler");
-		TestUtil.click(rawDataYes, "Raw Data Yes");
-		TestUtil.type(otherLocations, "Other Locations", "Test other location");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(source, "Source", "Test Source");
-		TestUtil.type(buid, "BUID", "BUID" + suffix_add);
-		TestUtil.type(documentLegacyId, "Document Legacy ID", "Test Document Legacy ID");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
-		TestUtil.click(cancelButton, "Cancel Button");
-		TestUtil.click(continueButton, "Continue Button");
+		deleted out of this public fork
 		
 		}
 	
@@ -298,49 +202,15 @@ public class CreateStudiesPage extends TestBase {
 	
 	public void fillOutNonGlpStudy() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
-		TestUtil.type(basfStudyId, "BASF Study ID", "TestJRZ_01nonGLP" + suffix_add);
-		TestUtil.type(externalStudyId, "External Study ID", "01nonGLPJRZTest");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01nonGLP");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.click(glpNo, "GLP No");
-		TestUtil.clickBinocular(binocularsFascility, "Fascility Binoculars", "BASF SE", addFirstValue);
-		TestUtil.type(actualStudyCompletionDateExternalStudy, "Actual Study Completion Date Study", "01/02/2019");
-		TestUtil.type(studyDirector, "Study Director", "Frank Sattler");
-		TestUtil.ClickOnFocusedItem("Frank Sattler");
-		TestUtil.click(rawDataYes, "Raw Data Yes");
-		TestUtil.type(otherLocations, "Other Locations", "Test other location");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(source, "Source", "Test Source");
-		TestUtil.type(buid, "BUID", "Test BUID 1" + suffix_add);
-		TestUtil.type(documentLegacyId, "Document Legacy ID", "Test Document Legacy ID");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
-		TestUtil.click(saveButton, "Save Button");
+		
+		deleted out of ths public fork
 		
 		}
 	
 	public void fillOutNonGlpStudyAndCancle() throws InterruptedException {
 		String suffix_add = TestUtil.RandomName(5);
-		TestUtil.type(basfStudyId, "BASF Study ID", "TestJRZ_01nonGLP" + suffix_add);
-		TestUtil.type(externalStudyId, "External Study ID", "01nonGLPJRZTest");
-		TestUtil.type(title, "Title", "Test Study Title JRZ 01nonGLP");
-		TestUtil.type(searchSponsor, "Search Sponsor", "BASF Crop Protection");
-		TestUtil.ClickOnFocusedItem("BASF Crop Protection");
-		TestUtil.click(glpNo, "GLP No");
-		TestUtil.clickBinocular(binocularsFascility, "Fascility Binoculars", "BASF SE", addFirstValue);
-		TestUtil.type(actualStudyCompletionDateExternalStudy, "Actual Study Completion Date Study", "01/02/2019");
-		TestUtil.type(studyDirector, "Study Director", "Frank Sattler");
-		TestUtil.ClickOnFocusedItem("Frank Sattler");
-		TestUtil.click(rawDataYes, "Raw Data Yes");
-		TestUtil.type(otherLocations, "Other Locations", "Test other location");
-		TestUtil.type(limsStudyType, "LIMS Study Type", "Test LIMS Study Type");
-		TestUtil.type(source, "Source", "Test Source");
-		TestUtil.type(buid, "BUID", "Test BUID 1" + suffix_add);
-		TestUtil.type(documentLegacyId, "Document Legacy ID", "Test Document Legacy ID");
-		TestUtil.type(limsStatus, "LIMS Status", "Test LIMS Status");
-		TestUtil.click(cancelButton, "Cancel Button");
-		TestUtil.click(continueButton, "Continue Button");
 		
+		Deleted out of this public fork....
 		
 	
 		}
